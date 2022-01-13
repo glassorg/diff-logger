@@ -1,0 +1,17 @@
+{
+  "name": "@glas/diff-logger",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/glassorg/diff-logger.git",
+  "author": "Kris Nye <krisnye@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "diff2html": "3.4.13",
+    "jsondiffpatch": "0.2.5"
+  }
+}
